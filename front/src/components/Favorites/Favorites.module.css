@@ -1,0 +1,41 @@
+.div{
+    background-color: white;
+    width: 250px;
+    height:350px;
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding:10px;
+    margin:auto;
+    margin-top: 5em;
+}
+.button{
+    background-color: lightcoral;
+    margin-left: 220px;
+}
+.h2Name{
+    background-color: rgb(204, 199, 199);
+    border-color: #000;
+    font-size:large;
+    margin-top: 1em;
+    line-height: 2em;
+       
+}
+.h2Name:hover{
+    font-weight: 800;    
+ }   
+
+.h2{
+    margin-top: 0.5em;
+    font-size: medium;
+    font-family:'Courier New', Courier, monospace;
+}
+.img{
+    border-radius: 10px 10px 0 0;
+    width:12em;
+    height:12em;
+    margin:auto;
+}
+
+.link{
+    color: #000;
+}

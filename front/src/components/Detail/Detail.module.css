@@ -1,0 +1,32 @@
+.div{
+    background: rgba(6, 6, 8, 0.7);
+    display:inline-block;
+    color: white;
+    margin-top: 3em;
+    
+   }
+
+.foto {
+    padding: 3em;
+    display: inline-block;
+    width: 20em;
+    height: 20em;
+    justify-content: center;   
+    border-radius: 100%;       
+    object-fit: contain; /* ya viene x defecto, muestra todo el contenido de la img */
+} 
+.name{
+    margin: 1em;
+    box-shadow: 2px 2px 2px #fff;
+    padding: 0.3em;
+}
+.button{
+    border-radius: 5px;
+    padding: 0.5em;
+    margin-top: 1em;
+}
+
+.button:hover{
+    font-weight: 600;
+}
+

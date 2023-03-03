@@ -1,0 +1,43 @@
+
+.input {
+    width: 60%; border-radius: 6px;
+    height: 30px;
+    border: 2px solid black;
+    padding: 10px 15px;
+  }
+
+.input::placeholder{
+  color: rgb(125, 121, 121);
+}
+
+.button{
+  width: 40%; border-radius: 6px;
+  height: 30px;
+  background-color: rgb(216, 158, 158);
+  
+}
+
+.button2{
+  background-color: rgb(216, 158, 158);
+  width: 40%; border-radius: 6px;
+  height: 30px;
+  display: flex;
+  justify-content:center;
+  margin-left: 10.3em;
+  margin-top: 0.2em;
+}
+
+@media only screen and (max-width:800px){
+  .input{
+    width: 20%;
+    margin-top: 1em;
+  }
+  .button{
+    width: 20%;
+  }
+
+  .button2{
+    display: flex;
+    margin: auto;
+  }
+}

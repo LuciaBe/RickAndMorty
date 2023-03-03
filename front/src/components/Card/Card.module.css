@@ -1,0 +1,81 @@
+/* #0bff01 verde rick*/
+
+.container{
+   /* Mantiene su espacio, no se juntan ni apilan. Todo dentro de esta caja */
+    display: inline-block; /* PARA Q ESTEN UNA AL LADO DE LA OTRA  tamanio se ajusta al contenido de la caja, pero deja dar width y height igual */
+    width: 15em;
+    height: 20em;
+    background-color: white;
+    margin: 10px; /*  margen entre las cartas */ 
+    border: 2px solid #000;
+    border-radius: 10px;
+    padding:20px;   
+    }
+
+.container:hover{
+    position: relative; /* Mantiene su espacio, no se juntan ni apilan. Todo dentro de esta caja */
+    display: inline-block; /* PARA Q ESTEN UNA AL LADO DE LA OTRA  tamanio se ajusta al contenido de la caja, pero deja dar width y height igual */
+    width: 16em;
+    height: 21em;
+    transition: 0.4s;
+}
+
+.buttonX{
+    background-color: lightcoral;
+    right: 0;
+    position: relative;
+    float: right; /*lo acamoda a la dcha del resto de elem */
+    padding: 3px;
+    position: relative;
+    
+}
+.buttonX:hover{  /*hover: cuando paso el cursor por encima  */ 
+   background-color: rgb(177, 56, 56);
+}
+
+.buttonCora{
+    margin: auto;
+    justify-content: center;
+    
+   
+}
+
+
+.h2Name{
+   /* font-size: 24px; /* establecer un tamaño de fuente predeterminado para el título de la tarjeta */
+  white-space: nowrap; /* evitar que el título se ajuste automáticamente */
+ /* overflow: hidden; /* ocultar cualquier contenido que sobresalga del título */
+ /* text-overflow: ellipsis; /* agregar una elipsis al final del texto truncado */
+    background-color: rgb(204, 199, 199);
+    border-color: #000;
+    font-size:1em;
+    line-height: 2;  
+    position: relative;
+    font-weight: 700;  
+    overflow: hidden;
+   
+   /* text-overflow: ellipsis    */
+    }
+
+
+ .h2Name:hover{
+    font-weight: 800;    
+ }   
+.h2{
+    font-size: medium;
+    font-family:'Courier New', Courier, monospace;
+    margin: 0.3em;
+}
+.img{
+    border-radius: 10px 10px 0 0;    
+    display: inline-block;
+    width: 11em;
+    height: 11em;
+    object-fit: contain; /* ya viene x defecto, muestra todo el contenido de la img */
+    
+}
+
+
+.link{
+    color: #000;
+}
